@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: $secondary-color;
+  font-family: $font-serif;
+  color: $text-color;
+  .logo {
+    margin-left: $size-2;
+  }
+  .link ul li {
+    display: inline-block;
+    margin-right: $size-2;
+  }
+}
+
+main {
+  font-family: $font-sans-serif;
+  color: $secondary-color;
+  line-height: $size-4;
+  .h1 {
+    font-size: $title-big;
+  }
+}
+
+.btn1 {
+  background-color: $btn-color1;
+  color: $text-color;
+  border: none;
+  border-radius: $size-1;
+  padding: $size-2;
+  margin: $size-2;
+
+  &:hover {
+    box-shadow: 0 4px 10px 0 $btn-color1, 0 4px 10px 0 $btn-color1;
+  }
+}
+.btn2 {
+  background-color: $btn-color2;
+  color: $text-color;
+  border: none;
+  border-radius: $size-1;
+  padding: $size-2;
+  margin: $size-2;
+  &:hover {
+    box-shadow: 0 4px 10px 0 $btn-color2, 0 4px 10px 0 $btn-color2;
+  }
+}
+.btn3 {
+  background-color: $btn-color3;
+  color: $text-color;
+  border: none;
+  border-radius: $size-1;
+  padding: $size-2;
+  margin: $size-2;
+  &:hover {
+    box-shadow: 0 4px 10px 0 $btn-color3, 0 4px 10px 0 $btn-color3;
+  }
+}
+
+.hero {
+  background-color: $main-color;
+  border-radius: $size-4;
+  display: flex;
+  margin-top: $size-3;
+  padding-top: $size-4;
+  padding-bottom: $size-4;
+  justify-content: flex-start;
+
+  .imgHero {
+    border-radius: $size-2;
+    margin: $size-3;
+    flex-shrink: 0%;
+    max-width: 400px;
+  }
+  p {
+    text-align: left;
+    font-family: $font-serif;
+    color: $text-color;
+  }
+}
+
+.grid {
+  display: inline-block;
+  padding-top: $size-4;
+  img {
+    margin: $size-2;
+    border-radius: $size-2;
+  }
+}

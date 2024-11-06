@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(86, 81, 189);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+}
+.nav .logo {
+  margin-left: 0.5rem;
+}
+.nav .link ul li {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+main {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(86, 81, 189);
+  line-height: 1.5rem;
+}
+
+.btn1 {
+  background-color: #0e6cff;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.btn1:hover {
+  box-shadow: 0 4px 10px 0 #0e6cff, 0 4px 10px 0 #0e6cff;
+}
+
+.btn2 {
+  background-color: #ff8700;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.btn2:hover {
+  box-shadow: 0 4px 10px 0 #ff8700, 0 4px 10px 0 #ff8700;
+}
+
+.btn3 {
+  background-color: #4caf50;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.btn3:hover {
+  box-shadow: 0 4px 10px 0 #4caf50, 0 4px 10px 0 #4caf50;
+}
+
+.hero {
+  background-color: rgb(189, 108, 189);
+  border-radius: 1.5rem;
+  display: flex;
+  margin-top: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  justify-content: flex-start;
+}
+.hero .imgHero {
+  border-radius: 0.5rem;
+  margin: 1rem;
+  flex-shrink: 0%;
+  max-width: 400px;
+}
+.hero p {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.grid {
+  display: inline-block;
+  padding-top: 1.5rem;
+}
+.grid img {
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}/*# sourceMappingURL=style.css.map */
